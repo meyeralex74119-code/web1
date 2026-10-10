@@ -8,17 +8,52 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Test Page</title>
+<title>BoxModel Page</title>
 
 <link rel="stylesheet" href="css/style.css">  
 
 </head>
 
 <body>
-    <p>This is my Page now</p>
-    <p>Hello</p>
-<!-- Your content will go here -->
+<header>
+<h1>Box Model Example Page</h1>
+</header>
+<main>
+<section class="container">
+<div class="box">
+<h2>Section One</h2>
+                <p>
+                    This is a paragraph I am using
+                    <strong>Strong Text</strong> and
+                    <em>Emphasized Text</em>
+                    You can also use a
+                    <span class="highlight">span element</span>
+                    to style specific parts of text. 
+                </p>
 
+</div>
+ <div class="box">
+                <h2>Section Two</h2>
+                <p>
+                    This section shows how block elements stack on each other,
+                    while inline elements stay witin the flow of the text
+                </p>
+            </div>
+
+<div class="box">
+                <h2>Sectoin Three</h2>
+                <p>
+                    Notice the sparing around the box. This is controlled using
+                    margin, padding, and border in CSS.
+                </p>
+</div>
+
+
+</section>
+</main>
+<footer>
+ <p>Footer Content</p>
+</footer>
 </body>
 
 </html>

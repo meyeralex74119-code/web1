@@ -1,0 +1,49 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color:#76B8CF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.container{
+    width: 80%
+    margin 30px auto;
+}
+section{
+width: 80%;
+margin: 0 auto;
+}
+
+.box {
+    /* Box Model demonstation */
+    background-color:hsl(209, 58%, 78%);
+
+     /* CONTENT */
+    width: 100%;
+
+    /* PADDING (space inside) */
+    padding: 20px;
+     
+    /* BORDER */
+    border: 2px solid #082e3b;
+
+    /* MARGIN (space outside) */
+    margin-bottom: 70px;
+}
+
+.highlight{
+    color: #880404;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #76b8cf;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

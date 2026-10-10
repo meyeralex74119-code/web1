@@ -1,0 +1,59 @@
+body{
+
+    margin: 0;
+}
+
+header{
+  background-color: #224D73;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #5FCDD9;
+  padding: 18px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+
+article{
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  background-color: #486D91;
+  padding: 1;
+}
+
+.other{
+    -webkit-flex: 0.1;
+  -ms-flex: 0.1;
+  flex: o.1;
+ padding: 20;
+}
+
+.rightfloat{
+    float: right;
+}
+
+
+footer{
+    background-color: #224D73;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
